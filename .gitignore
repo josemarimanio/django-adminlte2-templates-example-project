@@ -130,3 +130,9 @@ dmypy.json
 
 # PyCharm stuff
 .idea/
+
+# Django secret key file
+secret_key.txt
+
+# Django 'collectstatic'
+static/
