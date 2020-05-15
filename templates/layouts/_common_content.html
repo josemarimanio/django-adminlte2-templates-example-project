@@ -1,0 +1,124 @@
+<div class="box">
+    <div class="box-header with-border">
+        <h3 class="box-title">AdminLTE 2 templates for Django</h3>
+    </div>
+    <div class="box-body">
+        <!--  Introduction  -->
+        <p>
+            <b>django-adminlte2-templates</b> provides templates to easily integrate
+            <a href="https://adminlte.io">AdminLTE 2</a> to your Django projects.
+        </p>
+        <p>
+            For more information, please see the
+            <a href="https://django-adminlte2-templates.readthedocs.io/en/latest/">documentation</a> online.
+            Alternatively, the documentation is also available in the <code>docs</code> directory of the project.
+        </p>
+        <p>
+            This Django module assumes that you have prior experience with AdminLTE 2.
+            Please check the <a href="https://adminlte.io/docs/2.4/layout">AdminLTE 2 documentation</a> online
+            for your reference.
+        </p>
+
+        <!--  Requirements -->
+        <h3>Requirements</h3>
+        <p>
+        <ul>
+            <li>Python (2.7, 3.4, 3.5, 3.6, 3.7, 3.8)</li>
+            <li>Django (1.11, 2.0, 2.1, 2.2, 3.0)</li>
+        </ul>
+        </p>
+
+        <!--  Installation  -->
+        <h3>Installation</h3>
+        <p>
+            Installation using <a href="https://pip.pypa.io/en/stable/quickstart/">pip</a>:
+            <br>
+        <pre>
+pip install django-adminlte2-templates
+</pre>
+        </p>
+        <p>
+            Add <code>adminlte2_templates</code> to <code>INSTALLED_APPS</code>:
+        <pre>
+INSTALLED_APPS = [
+    ...
+    'adminlte2_templates',
+]</pre>
+        </p>
+
+        <p>
+            Add <code>adminlte2_templates.context_processors.template</code> to <code>context_processors</code>:
+        <pre>
+TEMPLATES = [
+    ...
+    'OPTIONS': {
+        'context_processors': [
+            ...
+            'adminlte2_templates.context_processors.template',
+         ],
+     ...
+]</pre>
+        </p>
+
+        <p>
+            This module provides static files for the following client-side libraries out-of-the-box:
+        </p>
+
+        <p>
+            <ul>
+                <li>AdminLTE 2.4.18 (<code>static/adminlte2/adminlte-2.4.18</code>)</li>
+                <li>Bootstrap 3.4.1 (<code>static/adminlte2/bootstrap-3.4.1</code>)</li>
+                <li>DataTables 1.10.21 (<code>static/adminlte2/datatables-1.10.21</code>)</li>
+                <li>Font Awesome 4.7.0 (<code>static/adminlte2/fontawesome-4.7.0</code>)</li>
+                <li>HTML5Shiv 3.7.3 (<code>static/adminlte2/html5shiv-3.7.3</code>)</li>
+                <li>jQuery 3.5.1 (<code>static/adminlte2/jquery-3.5.1</code>)</li>
+                <li>Respond.js 1.4.2 (<code>static/adminlte2/respond-1.4.2</code>)</li>
+                <li>Select2 4.0.13 (<code>static/adminlte2/select2-4.0.13</code>)</li>
+            </ul>
+        </p>
+
+        <!-- Quickstart -->
+        <h3>Quickstart</h3>
+        <p>
+            Head to the <a href="https://django-adminlte2-templates.readthedocs.io/en/latest/quickstart.html">
+            Quickstart</a> section of the documentation online for an example usage of
+            <b>django-adminlte2-templates</b>.
+        </p>
+        <p>
+            Also, an example Django project <code>example_project</code> is included in the module for your reference.
+        </p>
+
+        <!-- Links -->
+        <h3>Links</h3>
+        <ul>
+            <li>
+                Documentation:
+                <a href="https://django-adminlte2-templates.readthedocs.io/en/latest/">
+                    https://django-adminlte2-templates.readthedocs.io/en/latest/
+                </a>
+            </li>
+            <li>
+                Source Code:
+                <a href="https://github.com/josemarimanio/django-adminlte2-templates/">
+                    https://github.com/josemarimanio/django-adminlte2-templates/
+                </a>
+            </li>
+            <li>
+                Package:
+                <a href="https://pypi.org/project/django-adminlte2-templates/">
+                    https://pypi.org/project/django-adminlte2-templates/
+                </a>
+            </li>
+            <li>
+                AdminLTE 2:
+                <a href="https://adminlte.io/themes/AdminLTE/index2.html/">
+                    https://adminlte.io/themes/AdminLTE/index2.html/
+                </a>
+            </li>
+        </ul>
+        </p>
+    </div>
+    <div class="box-footer">
+        <i>Updated May-15-2020</i>
+    </div>
+</div>
